@@ -14,128 +14,78 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href={'https://hover.gg/'}
+                            href={'https://www.mangbot.com/'}
                         >
-                            <h4>www.hover.gg</h4>
+                            <h4>www.mangbot.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Frontend Engineer</h3>
+                        <h3>Frontend developer</h3>
                         <b>
-                            <p>Summer 2020 - Fall 2021</p>
+                            <p>Summer 2021 - Fall 2022</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
-                <p>
-                    Targeted towards online content creators and streamers
-                    looking to build a brand, Hover is the home of over 150K
-                    users. Written in Typescript using React, React-Native,
-                    Framer, Express, and Redux.
-                </p>
-                <br />
-                <ul>
-                    <li>
-                        <p>
-                            Architected and engineered the vertical scrolling
-                            discover player which, at its daily peak, was
-                            responsible for generating over 600,000 views across
-                            20,000 active users.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Designed and implemented multiple features to
-                            increase app usability and user experience while
-                            ensuring the quality, maintainability and
-                            scalability of the front end as the user base grew
-                            by over 50,000.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Coordinated major refactors targeted towards app
-                            optimization and performance resulting in a smoother
-                            user experience and accomplished by eliminating
-                            redundant re-renders and API calls by over 50%.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Directed and executed an internal migration of 3
-                            individual repositories to a single monorepo,
-                            greatly reducing overhead for developing new
-                            features, fixing bugs, and managing dependencies.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Rebuilt the website with React and shared mobile app
-                            components allowing users to access a wide variety
-                            of app interactions entirely on the web, resulting
-                            in over 700,000 total site visits.
-                        </p>
-                    </li>
-                </ul>
+                Project: MangBot - Innovative User Comment Automation Website
+                During the summer of 2021, I had the incredible opportunity to
+                play a pivotal role as a Front-End Developer in the creation of
+                the groundbreaking website, MangBot. MangBot was conceived as an
+                innovative solution to automatically answer user comments,
+                <br /> <br />
+                enhancing user engagement and interaction on various digital
+                platforms. Design Excellence: As a front-end developer, I was
+                deeply involved in crafting the user interface and experience
+                <br /> <br />
+                (UI/UX) of MangBot. The design approach was focused on
+                simplicity, accessibility, and visual appeal. Leveraging the
+                power of Next.js, a cutting-edge framework for building React
+                applications, I was able to create a responsive and highly
+                interactive web application. Key design highlights include:
+                Intuitive User Interface: The website's design was carefully
+                crafted to ensure users could easily navigate and interact with
+                MangBot.
+                <br /> <br />
+                Clear and user-friendly layouts, intuitive navigation menus, and
+                an aesthetically pleasing color scheme were implemented to
+                provide a seamless experience. Responsive Design: Recognizing
+                the importance of accessibility across various devices, I
+                ensured that the website was fully responsive. Users could
+                engage with MangBot flawlessly on desktops, tablets, and mobile
+                devices. Engaging Visual Elements: Visual elements such as
+                animations, illustrations, and dynamic content were incorporated
+                to captivate users' attention while maintaining a professional
+                and cohesive appearance. Development Prowess: The heart of
+                MangBot's success lay in its development, and as a Front-End
+                Developer, I played a key role in building a robust and
+                efficient application. Utilizing Next.js, I employed the latest
+                web development best practices to deliver an exceptional
+                product: Fast and Efficient: Next.js allowed us to create a
+                performant website with server-side rendering (SSR)
+                capabilities, resulting in rapid page load times and improved
+                SEO. Dynamic Content Handling: MangBot required real-time
+                updates and dynamic content. Leveraging Next.js's data-fetching
+                capabilities, I ensured that user comments were processed and
+                answered promptly, creating a seamless experience. Modular
+                Codebase: I maintained a clean and organized codebase with
+                modular components, enhancing code reusability and
+                maintainability. API Integration: I collaborated closely with
+                the backend team to integrate MangBot with the necessary APIs,
+                ensuring smooth data flow and communication. In conclusion, my
+                role as a Front-End Developer for MangBot in the summer of 2021
+                was a resounding success. The website's design and development
+                were executed with precision and innovation, resulting in a
+                user-friendly, responsive, and visually engaging platform.
+                MangBot achieved its goal of automating user comments, and I am
+                proud to have been a part of this cutting-edge project that
+                pushed the boundaries of user engagement and automation in the
+                digital realm. The experience gained from MangBot continues to
+                inform my work as a front-end developer, and I look forward to
+                contributing to more groundbreaking projects in the future.
             </div>
-            <div style={styles.headerContainer}>
-                <div style={styles.header}>
-                    <div style={styles.headerRow}>
-                        <h1>BrACS</h1>
-                        <a
-                            target="_blank"
-                            rel="noreferrer"
-                            href={'https://bracs.co/'}
-                        >
-                            <h4>www.bracs.co</h4>
-                        </a>
-                    </div>
-                    <div style={styles.headerRow}>
-                        <h3>Team Lead & Engineer</h3>
-                        <b>
-                            <p>Fall 2021 - Spring 2022</p>
-                        </b>
-                    </div>
-                </div>
-            </div>
-            <div className="text-block">
-                <p>
-                    Supervised and developed the front end of bracs.co, a
-                    beautifully simple and effective bracket creation and
-                    management engine. Written in Typescript using React and
-                    deployed using AWS Elastic Beanstalk.
-                </p>
-                <br />
-                <ul>
-                    <li>
-                        <p>
-                            Managed the project and team members by conducting
-                            bi-weekly stand-ups.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Architected bracket view UI using React Flow and
-                            custom bracket data types built from binary trees.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Created conversion algorithms to serialize bracket
-                            tree data to allow for saving in the cloud.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Implemented bracket generation utilities which
-                            employ gray code for proper team seeding and
-                            placement.
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <div style={styles.headerContainer}>
+
+            {/* <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
                         <h1>K-F/X</h1>
@@ -154,8 +104,8 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </b>
                     </div>
                 </div>
-            </div>
-            <div className="text-block">
+            </div> */}
+            {/* <div className="text-block">
                 <p>
                     Applied problem solving and technical skills to operate
                     large equipment such as rain machines, fog machines, small
@@ -236,7 +186,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </p>
                     </li>
                 </ul>
-            </div>
+            </div> */}
         </div>
     );
 };

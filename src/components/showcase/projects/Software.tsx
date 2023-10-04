@@ -24,18 +24,17 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
             <ResumeDownload />
             <br />
             <div className="text-block">
-                <h2>henryheffernan.com</h2>
+                <h2>Mirkko.dev/</h2>
                 <br />
                 <p>
-                    henryheffernan.com is my portfolio website, and also the
-                    website you are on right now. This project was an absolute
-                    joy to make and challenged me both technically and
-                    creatively. Early in 2022, I knew I wanted to make an
-                    interactive portfolio to aid my job search. I eventually got
-                    the idea for this site around early February and began
-                    development early March. I've been developing it alongside
-                    my last semester at school and if you are reading this, it's
-                    pretty much done!
+                    Mirkko.dev is my portfolio website, and also the website you
+                    are on right now. This project was an absolute joy to make
+                    and challenged me both technically and creatively. Early in
+                    2023, I knew I wanted to make an interactive portfolio to
+                    aid my job search. I eventually got the idea for this site
+                    around early February and began development early March.
+                    I've been developing it alongside my last semester at school
+                    and if you are reading this, it's pretty much done!
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -57,7 +56,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://henryheffernan.vercel.app/"
+                        href="https://Mirkoheffernan.vercel.app/"
                     >
                         here
                     </a>{' '}
@@ -73,10 +72,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://henryheffernan.com"
+                            href="https://Mirkoheffernan.com"
                         >
                             <p>
-                                <b>[3D Site]</b> - henryheffernan.com
+                                <b>[3D Site]</b> - Mirkoheffernan.com
                             </p>
                         </a>
                     </li>
@@ -84,10 +83,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://henryheffernan.vercel.app/"
+                            href="https://Mirkoheffernan.vercel.app/"
                         >
                             <p>
-                                <b>[OS Site]</b> - henryheffernan.vercel.app
+                                <b>[OS Site]</b> - Mirkoheffernan.vercel.app
                             </p>
                         </a>
                     </li>
@@ -95,7 +94,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/henryjeff/portfolio-website"
+                            href="https://github.com/Mirkojeff/portfolio-website"
                         >
                             <p>
                                 <b>[GitHub]</b> - 3D Site Repository
@@ -106,7 +105,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/henryjeff/portfolio-inner-site"
+                            href="https://github.com/Mirkojeff/portfolio-inner-site"
                         >
                             <p>
                                 <b>[GitHub]</b> - OS Site Repository
@@ -122,9 +121,9 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://twitter.com/henryheffernan"
+                        href="https://twitter.com/Mirkoheffernan"
                     >
-                        @henryheffernan
+                        @Mirkoheffernan
                     </a>
                 </p>
             </div>
@@ -188,7 +187,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/henryjeff/gsts_assets"
+                            href="https://github.com/Mirkojeff/gsts_assets"
                         >
                             <p>
                                 <b>[GitHub]</b> - Guntattchment Saga The Sequel
@@ -244,7 +243,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/henryjeff/skip-the-scroll"
+                            href="https://github.com/Mirkojeff/skip-the-scroll"
                         >
                             <p>
                                 <b>[GitHub]</b> - Skip the Scroll Repository

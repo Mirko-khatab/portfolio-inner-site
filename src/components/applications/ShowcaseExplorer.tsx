@@ -4,7 +4,7 @@ import Home from '../showcase/Home';
 import About from '../showcase/About';
 import Window from '../os/Window';
 import Experience from '../showcase/Experience';
-import Projects from '../showcase/Projects';
+// import Projects from '../showcase/Projects';
 import Contact from '../showcase/Contact';
 import SoftwareProjects from '../showcase/projects/Software';
 import MusicProjects from '../showcase/projects/Music';
@@ -23,12 +23,12 @@ const ShowcaseExplorer: React.FC<ShowcaseExplorerProps> = (props) => {
             left={56}
             width={initWidth}
             height={initHeight}
-            windowTitle="Henry Heffernan - Showcase 2022"
+            windowTitle="Mirko Kawa - Showcase 2023-2024"
             windowBarIcon="windowExplorerIcon"
             closeWindow={props.onClose}
             onInteract={props.onInteract}
             minimizeWindow={props.onMinimize}
-            bottomLeftText={'© Copyright 2022 Henry Heffernan'}
+            bottomLeftText={'© Copyright 2023 Mirko Kawa'}
         >
             <Router>
                 <div className="site-page">
@@ -37,7 +37,7 @@ const ShowcaseExplorer: React.FC<ShowcaseExplorerProps> = (props) => {
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/experience" element={<Experience />} />
-                        <Route path="/projects" element={<Projects />} />
+                        {/* <Route path="/projects" element={<Projects />} /> */}
                         <Route path="/contact" element={<Contact />} />
                         <Route
                             path="/projects/software"
