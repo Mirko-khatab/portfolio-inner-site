@@ -85,7 +85,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 contributing to more groundbreaking projects in the future.
             </div>
 
-            <div style={styles.headerContainer}>
+            {/* <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
                         <h1>cvmakerr</h1>
@@ -104,8 +104,8 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </b>
                     </div>
                 </div>
-            </div>
-            <div className="text-block">
+            </div> */}
+            {/* <div className="text-block">
                 <p>
                     Applied problem solving and technical skills to operate
                     large equipment such as rain machines, fog machines, small
@@ -186,7 +186,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </p>
                     </li>
                 </ul>
-            </div>
+            </div> */}
         </div>
     );
 };
