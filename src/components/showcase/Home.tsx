@@ -16,8 +16,16 @@ const Home: React.FC<HomeProps> = (props) => {
     return (
         <div style={styles.page}>
             <div style={styles.header}>
-                <h1 style={styles.name}>Mirko</h1>
+                <h1 style={styles.name}>Mirko kawa</h1>
                 <h2>Software Engineer</h2>
+                <h3
+                    style={{
+                        marginTop: 16,
+                    }}
+                >
+                    {/* my phone number redirect to call */}
+                    <a href="tel:+964 773 889 6515">+964 773 889 6515</a>
+                </h3>
             </div>
             <div style={styles.buttons}>
                 <Link containerStyle={styles.link} to="about" text="ABOUT" />

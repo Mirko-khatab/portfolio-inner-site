@@ -10,7 +10,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Hover</h1>
+                        <h2>Automation system (nrx)</h2>
                         <a
                             rel="noreferrer"
                             target="_blank"
@@ -85,14 +85,14 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 contributing to more groundbreaking projects in the future.
             </div>
 
-            {/* <div style={styles.headerContainer}>
+            <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>K-F/X</h1>
+                        <h1>cvmakerr</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://kfxnyc.com/'}
+                            href={'https://cvmakerr.com/'}
                         >
                             <h4>www.kfxnyc.com</h4>
                         </a>
@@ -100,12 +100,12 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     <div style={styles.headerRow}>
                         <h3>Special Effects Technician</h3>
                         <b>
-                            <p>Fall 2019, Summer 2021</p>
+                            <p>Fall 2024, Summer 2024</p>
                         </b>
                     </div>
                 </div>
-            </div> */}
-            {/* <div className="text-block">
+            </div>
+            <div className="text-block">
                 <p>
                     Applied problem solving and technical skills to operate
                     large equipment such as rain machines, fog machines, small
@@ -186,7 +186,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </p>
                     </li>
                 </ul>
-            </div> */}
+            </div>
         </div>
     );
 };
